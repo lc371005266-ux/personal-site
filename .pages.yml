@@ -1,0 +1,36 @@
+content:
+  - name: content
+    label: 网站内容
+    type: file
+    path: data/content.json
+    format: json
+    fields:
+      - name: links
+        label: 我的链接
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: 链接名称
+            type: string
+            required: true
+          - name: url
+            label: 完整网址（https:// 开头）
+            type: string
+            required: true
+          - name: description
+            label: 简介
+            type: text
+      - name: notes
+        label: 经验总结
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: 文章标题
+            type: string
+            required: true
+          - name: body
+            label: 正文
+            type: text
+            required: true
