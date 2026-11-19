@@ -3,16 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>内容管理 · 个人主页</title>
-<link rel="stylesheet" href="/personal-site/style.css">
+<meta name="theme-color" content="#f8f8f6">
+<title>内容管理 · LC Creative Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header><a class="brand" href="/personal-site/">个人主页</a><nav aria-label="主导航"><a href="/personal-site/">返回首页</a></nav></header>
-<main id="main">
-<h1>内容管理<span>。</span></h1>
-<p>登录 Pages CMS，在 personal-site 仓库的「网站内容」中管理链接与经验总结。</p>
-<a class="button" href="https://app.pagescms.org/">登录管理后台 ↗</a>
-<section class="card empty"><h2>添加与发布</h2><p>进入「我的链接」或「经验总结」，添加项目并填写内容，点击 Save 保存。网站会在发布完成后显示更新。</p></section>
+<header class="site-header">
+<a class="brand" href="../index.html"><span class="brand-mark">LC</span><span class="brand-name">CREATIVE PORTFOLIO</span></a>
+<nav aria-label="主导航"><a href="../index.html">返回作品集 ↗</a></nav>
+</header>
+<main class="content-page">
+<div class="content-intro"><p class="eyebrow">SITE CONTENT / CMS</p><h1>内容管理<span>。</span></h1><p>通过 Pages CMS 管理个人链接与经验笔记，保存后网站会自动同步更新。</p></div>
+<a class="button" href="https://app.pagescms.org/" target="_blank" rel="noopener noreferrer">打开 Pages CMS ↗</a>
+<section class="admin-help"><h2>如何更新网站内容</h2><ol><li>登录 Pages CMS，并选择 <strong>personal-site</strong> 仓库。</li><li>进入「网站内容」，编辑「我的链接」或「经验总结」。</li><li>点击 Save 保存，等待 GitHub Pages 完成部署。</li></ol></section>
 </main>
-<footer><span>个人主页</span><a href="/personal-site/">返回首页</a></footer>
-</body></html>
+<footer class="site-footer"><a class="footer-brand" href="../index.html">LC<span>.</span></a><span>DESIGNED WITH INTENTION.</span><span>© 2026 LC PORTFOLIO</span><a href="../index.html">返回首页 ↗</a></footer>
+</body>
+</html>
