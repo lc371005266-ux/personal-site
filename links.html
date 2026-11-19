@@ -3,32 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="个人链接和经验总结">
-<title>我的链接 · 个人主页</title>
+<meta name="theme-color" content="#f8f8f6">
+<meta name="description" content="收藏值得访问的创作资源、个人主页与项目入口。">
+<title>我的链接 · LC Creative Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip" href="#main">跳到正文</a>
-<header>
-<a class="brand" href="index.html">个人主页</a>
-<nav aria-label="主导航">
-<a href="index.html">首页</a>
-<a href="links.html" aria-current="page">我的链接</a>
-<a href="notes.html">经验总结</a>
-</nav>
+<header class="site-header">
+<a class="brand" href="index.html"><span class="brand-mark">LC</span><span class="brand-name">CREATIVE PORTFOLIO</span></a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开导航"><span></span><span></span></button>
+<nav id="site-nav" aria-label="主导航"><a href="index.html#work">作品方向</a><a href="index.html#about">关于</a><a href="links.html" aria-current="page">链接</a><a href="notes.html" >笔记</a><a class="nav-contact" href="index.html#contact">联系 ↗</a></nav>
 </header>
-<main id="main">
-<h1>我的链接<span>。</span>
-</h1>
-<p>个人资料、作品和常用网站。</p>
+<main id="main" class="content-page">
+<div class="content-intro"><p class="eyebrow">LC / PERSONAL ARCHIVE</p><h1>我的链接<span>。</span></h1><p>收藏值得访问的创作资源、个人主页与项目入口。</p></div>
 <div id="content-list" class="grid" aria-live="polite">正在加载…</div>
 <noscript>请启用 JavaScript 查看内容。</noscript>
 </main>
-<footer>
-<span>个人主页</span>
-<a href="admin/index.html">管理网站 ↗</a>
-</footer>
-<script src="content.js" defer data-kind="links">
+<footer class="site-footer"><a class="footer-brand" href="index.html">LC<span>.</span></a><span>DESIGNED WITH INTENTION.</span><span>© 2026 LC PORTFOLIO</span><a href="admin/index.html">内容管理 ↗</a></footer>
+<script src="content.js" defer data-kind="links"></script>
+<script>
+const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('#site-nav');
+toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!open));nav.classList.toggle('is-open',!open)});
+nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{toggle.setAttribute('aria-expanded','false');nav.classList.remove('is-open')}));
 </script>
 </body>
 </html>
