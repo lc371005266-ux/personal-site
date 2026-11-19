@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+ <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#f3f1e9"/><stop offset="1" stop-color="#d9dfd6"/></linearGradient>
+ <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#c6d0c4"/><stop offset=".52" stop-color="#8ca08f"/><stop offset="1" stop-color="#526c5c"/></linearGradient>
+ <linearGradient id="gold" x2="1" y2="1"><stop stop-color="#e9d6a7"/><stop offset="1" stop-color="#9b8053"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1600" height="1000" fill="url(#paper)"/>
+<g stroke="#667b68" opacity=".13" stroke-width="1"><path d="M100 0V1000M300 0V1000M500 0V1000M700 0V1000M900 0V1000M1100 0V1000M1300 0V1000M1500 0V1000"/><path d="M0 100H1600M0 300H1600M0 500H1600M0 700H1600M0 900H1600"/></g>
+<ellipse cx="840" cy="780" rx="480" ry="70" fill="#344d3c" opacity=".18" filter="url(#shadow)"/>
+<rect x="440" y="180" width="700" height="590" rx="5" fill="#f8f7f0" transform="rotate(-7 790 475)" opacity=".85"/>
+<rect x="500" y="160" width="690" height="590" rx="4" fill="#e9e9df" transform="rotate(5 845 455)"/>
+<path d="M460 690 660 420 820 570 1000 300 1260 690Z" fill="url(#panel)"/>
+<path d="M620 690 800 465 920 570 1090 350 1280 690Z" fill="#6c8571" opacity=".9"/>
+<circle cx="1030" cy="300" r="125" fill="url(#gold)" opacity=".9"/>
+<circle cx="1030" cy="300" r="165" fill="none" stroke="#9c875f" stroke-width="2" opacity=".7"/>
+<circle cx="1030" cy="300" r="205" fill="none" stroke="#9c875f" stroke-width="1" opacity=".45"/>
+<g fill="#f5f1e7"><path d="M790 460 830 410 870 460V570H790Z"/><path d="M850 485 890 430 930 485V570H850Z"/><path d="M740 510 775 465 810 510V570H740Z"/></g>
+<g stroke="#f7f4e8" stroke-width="4" fill="none" opacity=".8"><path d="M440 760H1250"/><path d="M470 785H1200"/><path d="M510 810H1160"/></g>
+<g fill="none" stroke="#9a835b" stroke-width="3"><path d="M240 220 260 270 310 290 260 310 240 360 220 310 170 290 220 270Z"/><path d="M1300 700 1318 745 1363 763 1318 781 1300 826 1282 781 1237 763 1282 745Z"/></g>
+<g fill="#536b58" opacity=".8"><circle cx="300" cy="600" r="5"/><circle cx="340" cy="630" r="4"/><circle cx="1270" cy="220" r="5"/><circle cx="1320" cy="260" r="4"/></g>
+<text x="90" y="120" font-family="Arial,sans-serif" font-size="22" letter-spacing="9" fill="#5c6e5d">ART DIRECTION / VISUAL SYSTEM</text>
+<text x="90" y="875" font-family="Georgia,serif" font-size="62" fill="#26372b">A coherent visual language.</text>
+<text x="92" y="920" font-family="Arial,sans-serif" font-size="18" letter-spacing="5" fill="#7b8579">MOODBOARD · KEY VISUAL · DESIGN GUIDELINE</text>
+</svg>
