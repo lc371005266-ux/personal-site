@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#25213b"/><stop offset=".48" stop-color="#8b83b4"/><stop offset="1" stop-color="#e6dff0"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#fff" stop-opacity=".95"/><stop offset=".22" stop-color="#dcd0ff" stop-opacity=".55"/><stop offset="1" stop-color="#b9a8e9" stop-opacity="0"/></radialGradient>
+ <linearGradient id="dress" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#d9d0ee"/><stop offset="1" stop-color="#8d83b9"/></linearGradient>
+ <linearGradient id="beam" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".42"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="35"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<circle cx="800" cy="390" r="520" fill="url(#glow)"/>
+<path d="M260 0 680 0 920 810 760 810Z" fill="url(#beam)" opacity=".65"/>
+<path d="M980 0 1260 0 910 850 830 850Z" fill="url(#beam)" opacity=".35"/>
+<ellipse cx="800" cy="870" rx="720" ry="90" fill="#e9e1ff" opacity=".17" filter="url(#blur)"/>
+<g fill="none" stroke="#f4eaff" opacity=".7">
+ <ellipse cx="800" cy="475" rx="710" ry="220" transform="rotate(-13 800 475)" stroke-width="3"/>
+ <ellipse cx="800" cy="475" rx="640" ry="300" transform="rotate(18 800 475)" stroke-width="2"/>
+ <ellipse cx="800" cy="475" rx="520" ry="370" transform="rotate(-31 800 475)" stroke-width="1.5" opacity=".6"/>
+</g>
+<g fill="#fff">
+ <circle cx="250" cy="340" r="4"/><circle cx="390" cy="650" r="3"/><circle cx="1200" cy="250" r="5"/><circle cx="1330" cy="560" r="3"/><circle cx="1060" cy="730" r="4"/><circle cx="610" cy="210" r="3"/><circle cx="1450" cy="430" r="3"/>
+</g>
+<g opacity=".8" fill="#f8f3ff"><path d="M300 100 307 119 327 126 307 133 300 153 293 133 273 126 293 119Z"/><path d="M1260 170 1267 190 1287 197 1267 204 1260 224 1253 204 1233 197 1253 190Z"/><path d="M1110 680 1116 697 1133 703 1116 709 1110 726 1104 709 1087 703 1104 697Z"/></g>
+<!-- singer silhouette -->
+<ellipse cx="790" cy="880" rx="170" ry="24" fill="#211d35" opacity=".28" filter="url(#soft)"/>
+<path d="M780 330 C730 330 708 374 722 420 C733 457 770 474 803 451 C838 427 846 373 816 343 C806 334 793 329 780 330Z" fill="#f0eaf7"/>
+<path d="M739 376 C708 320 735 277 782 274 C833 273 861 323 834 377 C823 343 808 330 784 328 C767 352 755 367 739 376Z" fill="#c7bce3"/>
+<path d="M728 414 C685 510 682 630 651 790 C713 844 875 850 947 789 C913 659 892 526 830 420 C799 455 762 461 728 414Z" fill="url(#dress)"/>
+<path d="M733 444 C683 515 636 622 540 744 C635 756 698 711 755 615Z" fill="#e9e2f6" opacity=".8"/>
+<path d="M824 444 C890 525 939 641 1040 739 C940 773 874 705 817 620Z" fill="#c9bee4" opacity=".8"/>
+<path d="M760 288 C692 324 680 401 700 495 C652 432 661 325 715 276 C755 239 811 240 847 283 C892 337 863 426 835 477 C849 392 824 323 760 288Z" fill="#b6a8d9"/>
+<path d="M740 344 C692 410 702 514 666 596 C713 559 740 494 752 430Z" fill="#e6dcf6" opacity=".9"/>
+<path d="M817 340 C868 415 862 526 918 612 C881 570 842 506 822 437Z" fill="#a99bcf"/>
+<path d="M833 430 Q885 470 892 560" stroke="#fff" stroke-width="7" fill="none" opacity=".6"/>
+<path d="M885 405 L920 430 L903 450" stroke="#f9f6ff" stroke-width="5" fill="none"/>
+<rect x="905" y="438" width="8" height="315" rx="4" fill="#272638"/><ellipse cx="909" cy="435" rx="18" ry="9" fill="#d9d9e5" transform="rotate(45 909 435)"/>
+<path d="M620 760 Q790 835 1040 760" stroke="#fff" stroke-width="4" fill="none" opacity=".5"/>
+<text x="72" y="900" font-family="Arial,sans-serif" font-size="22" letter-spacing="7" fill="#fff" opacity=".72">F E N Y I N  /  SOUND &amp; HEALING</text>
+</svg>
